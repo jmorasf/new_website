@@ -24,6 +24,13 @@ h2 {
 
 }
 
+ .h2_comparison{
+  font-weight: bold;
+  font-family: 'Times';
+  color:lightseagreen;
+  line-height: 2;
+ }
+
 .box {
   position: fixed;
   width: 150px;
@@ -33,6 +40,11 @@ h2 {
 }
 
 /* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+
+.col-md-12 {
+  background-color: white;
+  border: 15px solid gainsboro;
+ }
 
 .col-md-8 {
   background-color: white;
@@ -55,12 +67,11 @@ h2 {
   padding: 2%;  
 }
 
-
 .blueTable {
   border: 1px solid #1C6EA4;
   background-color: #EEEEEE;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border-collapse: collapse;
 }
 table.blueTable td, table.blueTable th {
